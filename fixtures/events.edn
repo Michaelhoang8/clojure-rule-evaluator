@@ -1,0 +1,3 @@
+[{:amount 12500 :region "AB" :status "pending" :reference "A-17"}
+ {:amount 300 :region "ON" :status "closed" :reference "A-18"}
+ {:amount 20 :region "BC" :status "open"}]

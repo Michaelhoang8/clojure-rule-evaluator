@@ -1,0 +1,3 @@
+{:high-value [:gte :amount 10000]
+ :needs-review [:and [:in :region #{"AB" "BC"}]
+                    [:or [:eq :status "pending"] [:not [:exists :reference]]]]}
